@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<script src="https://use.fontawesome.com/c28c4f7255.js"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css" />
+	<link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+</head>
+<body">
+	<div >
+         <div w3-include-html="nav.html">  
+         </div>
+        <div class="intro-section">
+            <img
+                name="slide"
+                id="slider_image"
+                alt="slider images"
+                src="./images/akagera.jpeg"/>
+            <div class="container">
+                        <div class="read-text">
+                        <p class="header-size" style="text-align: center;" >1 Day Akagera National Park Safari</p>
+                        </div>
+                    </div>
+        </div>
+    </div>
+
+    <div >
+        <div class="row padding">
+            <div class="col-sm-12 col-md-6 mb-6">
+                <div class="card shadow p-3 mb-5 bg-body rounded h-100" data-aos="flip-left">
+                    <div class="card-body">
+                        <h4 class="card-title"><strong>Overview</strong> </h4>
+                        <p class="card-text" >Akagera National Park is a combination of both savannah and forested areas situated in the eastern side of Rwanda on the borders with Tanzania. The park was named after river Akagera that flows on the eastern border of the park. When you visit Akagera National Park, you expect to see so many animals including the big-five (lion, leopard, rhinos, Cape buffalo and elephant). Other animals like hippos, Nile crocodile, giraffes, impalas, Cape elands, warthogs, waterbucks, and zebras to mention but a few. The park is also a home to than 525 different bird species which include the rare Shoebill Stork, Papyrus Gonolek, African Jacana and many more.
+                       </p>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title"><strong>day trip to Akagera National Park-Game drive-Transfer back to Kigali</strong> </h4>
+                        <p class="card-text">Our driver-guide will pick from your hotel or residence in Kigali at 5h00 am, short briefing about your tour then start your journey to Akagera National Park for your day safari, the drive from Kigali to Akagera is approximately 2h30.  </p>
+                        <p class="card-text"> On arrival at Akagera National Park, proceed with registration at the reception. You will immediately start your game drive which will take you about 6 hours depending on your arrival time, routes use, animal sightings and interests. On your game drives, you have an opportunity of seeing animals such as elephant, buffaloes, giraffes, sitatunga, impalas, Cape elands, waterbucks, leopards and lions if you are lucky, and birds such as long crested eagle, grey backed fiscals, grey crown carne and others.</p>
+                        <p class="card-text">You will have a stopover and enjoy your picnic lunch. You will then proceed with your game drive and exit via the northern gate, and transfer back to Kigali straight to your hotel/residence or at the airport. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 mb-6">
+                <div class="card shadow p-3 mb-5 bg-body rounded h-100" data-aos="flip-left">
+                    <div class="card-body">
+                        <h4 class="card-title"><strong>Inclusions</strong> </h4>
+                       <ul>
+                        <li> Ground transportation with our 4x4 vehicle</li> 
+                          <li>An English-speaking driver-guide </li> 
+                          <li>Park entrance fees</li>
+                          <li>Game drives</li>
+                          <li>Bottled mineral water in the vehicle during the tour</li>
+                          <li>Picnic lunch and soft drink </li>
+                          <li>Our assistance</li>
+                       </ul>
+                        <h4 class="card-title"><strong>Tour exclusions</strong> </h4>
+                       <ul>
+                        <li> Visa</li> 
+                          <li>International air to/from Rwanda </li> 
+                          <li>Tips and gratuities to drivers, guides, lodge/hotel staff</li>
+                          <li>Drinks throughout the trip</li>
+                          <li>Personal expenses such as telephone cells, travel insurance, etc.  </li>
+                       </ul>
+                       <h4 class="card-title"><strong>What to wear on safari </strong> </h4>
+                       <p>Casual clothing is suitable for just any African safari, safari clothing is generally comfortably and easy. Light materials and neutral tones such as beige, greens, khaki and brown great for both keeping cool and blending in with the natural surroundings.</p>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+
+    <div w3-include-html="./components/footer.html"> </div>  
+	
+</body>
+<script src="script.js"></script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+		includeHTML();
+		AOS.init();
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+		crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script>
+		  $.getJSON("https://api.ipify.org?format=json", function(data) {
+			const { ip } = data;
+			const website = window.location.hostname;
+			$.post( "https://kitech.rw/api/v1/visitor", {ip, website}) 
+		  })
+		</script>
+</html>

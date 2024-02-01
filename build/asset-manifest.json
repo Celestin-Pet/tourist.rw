@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/webtour/static/css/main.c56dabd3.css",
+    "main.js": "/webtour/static/js/main.d22030ef.js",
+    "static/media/accomodation.jpg": "/webtour/static/media/accomodation.4d35559627cf080baa9a.jpg",
+    "static/media/image4.jpeg": "/webtour/static/media/image4.b8b277aa5dac1d0d81cd.jpeg",
+    "static/media/image10.jpeg": "/webtour/static/media/image10.9fcd0635d5dea84ab506.jpeg",
+    "static/media/image9.jpeg": "/webtour/static/media/image9.45d8565817963dc460ce.jpeg",
+    "static/media/cab.jpeg": "/webtour/static/media/cab.70b5c9222340b2ee6430.jpeg",
+    "static/media/image5.jpeg": "/webtour/static/media/image5.1d6032d7d2307645c2e3.jpeg",
+    "static/media/image2.jpeg": "/webtour/static/media/image2.43c484cba3e95f400283.jpeg",
+    "static/media/main.jpg": "/webtour/static/media/main.f42bf0831f87a53b9b85.jpg",
+    "static/media/image1.jpeg": "/webtour/static/media/image1.a6ca19eed59cdd5594d3.jpeg",
+    "static/media/image.jpeg": "/webtour/static/media/image.deb68d638216712560e0.jpeg",
+    "static/media/image8.jpeg": "/webtour/static/media/image8.26a22716a4afdb9d3395.jpeg",
+    "static/media/image12.jpeg": "/webtour/static/media/image12.398b8363bc60d2aea008.jpeg",
+    "static/media/country.jpeg": "/webtour/static/media/country.bad0ff8509bb39a5e02d.jpeg",
+    "static/media/image7.jpeg": "/webtour/static/media/image7.ba690074cfe78838c854.jpeg",
+    "static/media/footer.svg": "/webtour/static/media/footer.f7b67a1234a7ce02c909.svg",
+    "index.html": "/webtour/index.html",
+    "main.c56dabd3.css.map": "/webtour/static/css/main.c56dabd3.css.map",
+    "main.d22030ef.js.map": "/webtour/static/js/main.d22030ef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c56dabd3.css",
+    "static/js/main.d22030ef.js"
+  ]
+}
